@@ -1,0 +1,26 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha *.test.js",
+    "test01": "./node_modules/mocha/bin/mocha 01_upper_camel_case.test.js",
+    "test02": "./node_modules/mocha/bin/mocha 02_artist_with_longest_name.test.js",
+    "test03": "./node_modules/mocha/bin/mocha 03_password_validator.test.js",
+    "test04": "./node_modules/mocha/bin/mocha 04_password_validator_2.test.js",
+    "test05": "./node_modules/mocha/bin/mocha 05_lyrics_counter.test.js",
+    "test06": "./node_modules/mocha/bin/mocha 06_lyrics_indexer.test.js",
+    "test07": "./node_modules/mocha/bin/mocha 07_artists_by_year.test.js",
+    "test08": "./node_modules/mocha/bin/mocha 08_artists_from_year.test.js",
+    "test09": "./node_modules/mocha/bin/mocha 09_artists_names.test.js",
+    "test10": "./node_modules/mocha/bin/mocha 10_filter.test.js",
+    "test11": "./node_modules/mocha/bin/mocha 11_map.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  }
+}
